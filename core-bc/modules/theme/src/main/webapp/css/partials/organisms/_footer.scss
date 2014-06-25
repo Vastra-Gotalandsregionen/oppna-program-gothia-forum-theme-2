@@ -1,20 +1,34 @@
 .main-footer {
-	@include list-links();
-	@include comb-color-negative();
 
-	color: $footer-color;
+	background: $footer-bg;
+	border-top: 1px solid $footer-border-color;
+
+
+	//color: $footer-color;
 	font-size: 0.9em;
 	padding: 20px 0;
+	padding: 0;
 	text-align: center;
 
-    background-color: $footer-from-bg;
-    background-image: -moz-linear-gradient(top, $footer-from-bg, $footer-to-bg);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from($footer-from-bg), to($footer-to-bg));
-    background-image: -webkit-linear-gradient(top, $footer-from-bg, $footer-to-bg);
-    background-image: -o-linear-gradient(top, $footer-from-bg, $footer-to-bg);
-    background-image: linear-gradient(to bottom, $footer-from-bg, $footer-to-bg);
-    background-repeat: repeat-x;
+    
 
+    .footer-bottom {
+    	background: $footer-bottom-bg;
+
+    	padding: 1.0em 0;
+
+    	.logo {
+    		background: transparent url(../images/theme/logo/vgregion-logo-white.png) center center no-repeat;
+    		display: inline-block;
+    		font-size: 0;
+    		height: 38px;
+    		text-indent: -9999em;
+    		width: 160px;
+
+    	}
+    }
+
+    /*
     a,
     li a {
 		color: $footer-color;
@@ -31,14 +45,15 @@
 		}
 
 	}
+	*/
 
 	.row,
 	.row-fluid {
 
 		[class^="span"],
 		[class*=" span"] {
-			border-left: 1px solid $footer-separator-color;
-			border-right: 1px solid $footer-separator-color;
+			//border-left: 1px solid $footer-separator-color;
+			//border-right: 1px solid $footer-separator-color;
 
         	margin-left: (2.5641/2) * 1%;
         	*margin-left: (2.5641/2) * 1%;

@@ -60,11 +60,9 @@ $top-bar-color:			$got-white;
 $top-nav-color:			$got-mineshaft;
 $top-nav-accent-color:	$got-red;
 
-$footer-bg:				$got-mineshaft;
-$footer-color: 			#d4d4d4;
-$footer-from-bg:		#505050;
-$footer-to-bg:			#323232;
-$footer-separator-color: #5b5b5b;
+$footer-bg:				$got-sandgray;
+$footer-border-color:	$got-red;
+$footer-bottom-bg: 		$got-red;
 
 
 $header-bg: 			$got-white;
@@ -101,6 +99,12 @@ $dropdown-list-link-color: 		$got-red;
 $marked-text-bg: 				$got-black;
 $marked-text-color: 			$got-white;
 
+// Info box
+$info-box-bg:					$got-sandgray;
+$info-box-heading-color:		$got-blue;
+$info-box-border-color:			$got-blue;
+
+// Nav portlet
 $nav-portlet-bg: 					transparent;
 $nav-portlet-color: 				$got-blue;
 $nav-portlet-selected-color: 		$got-red;
