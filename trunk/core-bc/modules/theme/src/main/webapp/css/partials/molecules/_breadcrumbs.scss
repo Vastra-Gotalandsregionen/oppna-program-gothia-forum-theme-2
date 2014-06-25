@@ -1,21 +1,31 @@
-.breadcrumbs {
-	color: $breadcrumbs-color;
-	margin: 1em 0;
+#breadcrumbs {
 
-	a {
-		color: $breadcrumbs-hover-color;
-		text-decoration: none;
+	.breadcrumb {
+		background: transparent;
 
-		&:hover {
+		color: $breadcrumbs-color;
+		margin: 0 0 1em 0;
+		margin: -10px 0 10px 0;
+		padding: 0 15px;
+
+		a {
 			color: $breadcrumbs-hover-color;
+			text-decoration: none;
+
+			&:hover {
+				color: $breadcrumbs-hover-color;
+			}
+
+			&:active {
+				color: $breadcrumbs-hover-color;
+			}
+
+			&:visited {
+				color: $breadcrumbs-hover-color;
+			}
 		}
 
-		&:active {
-			color: $breadcrumbs-hover-color;
-		}
 
-		&:visited {
-			color: $breadcrumbs-hover-color;
-		}
 	}
+
 }

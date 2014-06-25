@@ -45,7 +45,9 @@ ${theme.include(body_top_include)}
 <div id="wrapper" class="container">
 
 	<#if show_breadcrumbs>
-		<nav id="breadcrumbs"><@liferay.breadcrumbs /></nav>
+		<nav id="breadcrumbs">
+			<@liferay.breadcrumbs />
+		</nav>
 	</#if>
 
 

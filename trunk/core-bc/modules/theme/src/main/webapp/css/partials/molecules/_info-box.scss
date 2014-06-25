@@ -1,0 +1,29 @@
+.info-box {
+	background: $got-sandgray;
+	border-top: 3px solid $info-box-border-color;
+	@include border-radius(3px);
+	padding: 1.0em;
+
+	> h3 {
+		color: $info-box-heading-color;
+		margin: 0;
+		padding: 0;
+	}
+
+	.info-block {
+		margin: 0.5em 0;
+
+		.info-name {
+			color: $info-box-heading-color;
+			font-weight: bold;
+		}
+
+		.info-label {
+			font-weight: bold;
+		}
+
+	}
+
+
+
+}

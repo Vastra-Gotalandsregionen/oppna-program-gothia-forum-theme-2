@@ -1,0 +1,28 @@
+//http://pixelsvsbytes.com/blog/2011/09/sticky-css-footers-the-flexible-way/
+
+// Does not seem to work properly.
+
+/*
+&,
+body {
+    height: 100%;
+    margin: 0;   
+}
+
+body {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.main-header,
+#wrapper,
+#footer {
+	display: table-row;
+	height: 1px;
+}
+
+#wrapper {
+	height: auto;
+}
+*/
