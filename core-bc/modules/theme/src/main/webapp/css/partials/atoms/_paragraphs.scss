@@ -1,0 +1,19 @@
+p {
+	@include rhythm(0, 0, 0, 1);
+}
+
+@mixin paragraph-negative {
+	color: $color-negative;
+}
+
+@mixin paragraph-large {
+	@include adjust-font-size-to(22px);
+}
+
+@mixin paragraph-grande {
+	@include adjust-font-size-to(32px);
+}
+
+ @mixin paragraph-lesser {
+ 	@include adjust-font-size-to(14px);	
+ }

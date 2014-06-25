@@ -1,0 +1,195 @@
+@import '../../aui_variables';
+
+
+// Breakpoints
+// -------------------------
+$bp-xsmall : 600px;
+$bp-small : 800px;
+$bp-medium : 1000px;
+$bp-large : 1199px;
+
+
+// Colors - contansts
+// -------------------------
+
+$got-bluealt:		#2665a9;
+$got-bluedark:		#005479;
+
+
+$got-black: 		#000;
+$got-white:			#fff;
+
+$got-whitewashed:	#fbfbfb;
+$got-whitetraffic:	#f6f6f6;
+$got-whitetdust:	#f0f0f0;
+
+$got-sandgray: 		#efede3;
+$got-graycod:		#111;
+$got-mineshaft:		#222;
+$got-graydark:		#4a4a4a;
+$got-graydove:		#666;
+$got-boulder:		#777;
+$got-graydusty:		#999;
+$got-graylight:		#ececec;
+
+
+$got-blue:			#0078b4;
+
+$got-bluealt:		#2665a9;
+$got-bluedark:		#005479;
+$got-bluematte:		#56a0d9;
+
+$got-red:			#d90000;
+$got-reddark:		#6c0000;
+
+
+// Colors
+// -------------------------
+$bg:					$got-white;
+$text-color:			$textColor; //From _aui_variables
+
+
+$heading-color:			$got-mineshaft;
+$heading-h1-color:		$got-red;
+$link-color:			$linkColor; //From _aui_variables
+$link-hover-color:		$linkColorHover; //From _aui_variables
+
+$top-bar-bg:			$got-mineshaft;
+$top-bar-color:			$got-white;
+
+$top-nav-color:			$got-mineshaft;
+$top-nav-accent-color:	$got-red;
+
+$footer-bg:				$got-mineshaft;
+$footer-color: 			#d4d4d4;
+$footer-from-bg:		#505050;
+$footer-to-bg:			#323232;
+$footer-separator-color: #5b5b5b;
+
+
+$header-bg: 			$got-white;
+
+$menu-bar-bg:				$got-sandgray;
+$menu-bar-color:			$got-red;
+$menu-bar-selected:			$got-red;
+$menu-bar-selected-color:	$got-white;
+
+$token-bg: 				$got-bluematte;
+$token-color: 			$got-white;
+$token-icon-color: 		$got-blue;
+
+
+$color-alt1:				$got-boulder;
+$link-color-alt1:			$got-boulder;
+$heading-color-alt1:		$got-boulder;
+
+$color-negative:			$got-white;
+$heading-color-negative:	$got-white;
+
+$link-color-negative:			$got-white;
+$link-color-hover-negative:		$got-graydusty;
+$link-color-active-negative:	$got-graydusty;
+
+$quote-author-color: 		$got-graydove;
+
+$main-menu-selected-page-color: $text-color;
+
+$dropdown-menu-bg: 				$got-white;
+$dropdown-down-arrow-color: 	$link-color-alt1;
+$dropdown-list-link-color: 		$got-red;
+
+$marked-text-bg: 				$got-black;
+$marked-text-color: 			$got-white;
+
+$nav-portlet-bg: 					transparent;
+$nav-portlet-color: 				$got-blue;
+$nav-portlet-selected-color: 		$got-red;
+$nav-portlet-title-border-color: 	$got-red;
+$nav-portlet-title-bg:				$got-sandgray;
+$nav-portlet-title-color:			$got-red;
+$nav-portlet-separator-color:		$got-sandgray;
+$nav-portlet-border-color:			$got-sandgray;
+
+// Breadcrumbs
+$breadcrumbs-color: $got-graydove;
+$breadcrumbs-hover-color: $got-graycod;
+
+// Puffs
+$puff-bg:						$got-whitetraffic;
+$puff-border-color:				$got-graylight;
+$puff-content-border-color:		#ddd;
+
+// Fonts
+// -------------------------
+$base-font-size: 	$baseFontSize; //From _aui_variables
+$base-line-height:	$baseLineHeight; //From _aui_variables
+$base-font-weight:	400;
+
+// Selector, Size, Font Weight, Letter Spacing
+$font-list: (
+  h1	32px 	400	normal	$heading-h1-color,
+  h2	26px	400	normal	$heading-color,
+  h3	22px  	400	normal	$heading-color,
+  h4	20px	400	normal	$heading-color,
+  h5	20px  	400	normal	$heading-color,
+  h6	20px 	400	normal	$heading-color
+);
+
+$top-bar-font-size: 14px;
+
+$font-weight-normal: 		normal;
+$font-weight-bold:			bold;
+$font-weight-light: 		200;
+$font-weight-ultralight: 	100;
+
+
+$contact-card-title-font-weight:	$font-weight-light;
+$kicker-font-weight:			 	$font-weight-ultralight;
+$menu-bar-font-weight: 				$font-weight-normal;
+
+$hero-font-weight: $font-weight-bold;
+
+
+// Padding and sizes
+// -------------------------
+$portlet-padding: 			0 10px;
+
+$top-bar-height:			40px;
+$menu-bar-height:			90px;
+$menu-bar-small-height:		70px;
+
+$dropdown-arrow-position: 	45px;
+
+// These are just defaults and will be set by Javascript on page load/resize.
+$hero-large-padding-top: 	100px; 
+$hero-large-height: 		500px;
+
+$default-border-radius:		3px; //Compass named default variable.
+
+
+$logotype-normal-size: 		250px;
+$logotype-medium-size: 		200px;
+$logotype-small-size: 		150px;
+$logotype-normal-ultrasmall: 100px;
+
+$topwrap-normal-size: 		450px;
+$topwrap-small-size: 		250px;
+$topwrap-normal-ultrasmall: 120px;
+
+
+$page-top-margin: 			50px; // Push down all content X pixels after the Hero.
+$page-fat-padding: 			120px;
+$page-first-fat-padding-top: 	$page-fat-padding - $page-top-margin;
+
+// Shadow
+// --------
+$default-box-shadow-color: $got-graydusty; // The default color for box shadows
+$default-box-shadow-h-offset: 0px; // The default horizontal offset. Positive is to the right.
+$default-box-shadow-v-offset: 0px; // The default vertical offset. Positive is down.
+$default-box-shadow-blur: 5px; // The default blur length.
+$default-box-shadow-spread: false; // The default spread length.
+$default-box-shadow-inset: false; // The default shadow inset: inset or false (for standard shadow).
+
+// Other
+// -------------------------
+$grid-background-baseline-color: rgba(255, 0, 0, 0.5); //DEBUG

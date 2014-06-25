@@ -1,0 +1,11 @@
+// User image blows up in mobile view
+.dockbar {
+	.user-avatar-image {
+		display: none;
+
+		@include medium {
+			display: inherit;
+		}
+	}
+}
+
