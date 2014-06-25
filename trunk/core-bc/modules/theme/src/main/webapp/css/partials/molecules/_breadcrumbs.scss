@@ -1,0 +1,21 @@
+.breadcrumbs {
+	color: $breadcrumbs-color;
+	margin: 1em 0;
+
+	a {
+		color: $breadcrumbs-hover-color;
+		text-decoration: none;
+
+		&:hover {
+			color: $breadcrumbs-hover-color;
+		}
+
+		&:active {
+			color: $breadcrumbs-hover-color;
+		}
+
+		&:visited {
+			color: $breadcrumbs-hover-color;
+		}
+	}
+}

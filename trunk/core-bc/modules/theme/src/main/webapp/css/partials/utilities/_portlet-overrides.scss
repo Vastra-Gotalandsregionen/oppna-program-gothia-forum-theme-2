@@ -1,0 +1,155 @@
+// This file contains styling which overrides the standard Liferay portlets
+// Things like styling the search engine results page, the blog etc.
+// --------
+
+
+// All portlets
+.portlet {
+
+	.portlet-topper {
+		.portlet-title {
+			font-size: 1.625em;
+		}
+	}
+
+	.portlet-content {
+
+		padding: 0;
+
+		.portlet-body {
+			padding: 15px
+		}
+	}
+
+
+}
+
+.portlet-journal-content,
+.portlet-asset-publisher {
+
+	.portlet-content {
+		.portlet-body {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+}
+
+.portlet-asset-publisher {
+	.taglib-header {
+		display: none;
+	}
+
+	.asset-full-content {
+
+		.asset-content {
+			margin: 0;
+		}
+	}
+
+	.portlet-body {
+
+		.asset-user-actions {
+			@include clearfix();
+
+			margin-bottom: 3px;
+			
+			div:first-child {
+				margin-left: 0;
+			}
+
+			div:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.portlet-navigation {
+
+	.nav-menu {
+		background: transparent;
+		border: 1px solid $nav-portlet-border-color;
+
+		@include border-radius(3px);
+		color: $nav-portlet-color;
+		margin: 0;
+		padding: 0;
+
+		> h2 {
+			background: $nav-portlet-title-bg;
+			border-top: 3px solid $nav-portlet-title-border-color;
+
+			@include border-radius(3px 3px 0 0);
+
+			color: $nav-portlet-title-color;
+			cursor: pointer;
+			font-size: 1.2em;
+			font-weight: normal;
+			line-height: 1.0;
+			padding: 0.5em;
+			margin: 0;
+
+			a {
+				color: $nav-portlet-title-color;
+				text-decoration: none;
+			}
+		}
+
+		.breadcrumb {
+			background: transparent;
+		}
+
+		ul {
+			@include no-bullets();
+			padding: 0;
+			margin: 0 0.5em;
+
+			li {
+
+				border-bottom: 1px solid $nav-portlet-separator-color;
+
+				font-size: 1.0em;
+				line-height: 1.0;
+
+				margin: 0;
+				padding: 0;
+
+				a {
+					color: $nav-portlet-color;
+					display: block;
+					padding: 0.8em 0;
+					text-decoration: none;
+
+					&:hover {
+						color: $nav-portlet-selected-color;
+					}
+				}
+
+				&.selected {
+					> a {
+						color: $nav-portlet-selected-color;
+						font-weight: normal;
+					}
+				}
+			}
+		}
+
+	}
+}
+
+.mobile-ready {
+
+	.portlet-navigation {
+
+		.nav-menu {
+			background: $nav-portlet-bg;
+			> h2 {
+				visibility: visible;
+			}
+		}
+
+	}
+
+}

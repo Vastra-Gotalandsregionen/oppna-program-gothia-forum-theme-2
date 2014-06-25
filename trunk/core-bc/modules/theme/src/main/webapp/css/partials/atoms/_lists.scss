@@ -1,0 +1,62 @@
+@mixin list-links {
+	ul {
+		margin: 0;
+	}
+
+	li {
+		list-style-type: none;		
+	}
+}
+
+@mixin list-horizontal {
+	ul {
+		text-align: right;
+		padding: 0;
+		margin: 0;
+
+		li {
+			display: inline;
+			list-style-type: none;
+			margin-left: 30px;
+		}
+	}
+}
+
+@mixin list-dashed {
+	ul {
+	    list-style: none;
+	    margin: 0;
+	}
+
+	li:before {
+		content: '-';
+		display: inline-block;
+		width: 1.2em;
+	}	
+}
+
+.nav-pills > li > a {
+	@include border-radius();
+}
+
+ul.plain-list {
+	list-style :none;
+	margin: 10px 0;
+	padding: 0;
+
+	li {
+		margin: 5px 0;
+
+		&:first-child {
+			margin-top: 0;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	ul {
+		margin-left: 20px;
+	}
+
+}
