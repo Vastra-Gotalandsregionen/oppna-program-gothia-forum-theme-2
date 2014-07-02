@@ -59,3 +59,5 @@
 <#if show_page_edit>
 	<#assign css_class = css_class + " page-edit dockbar-split" />
 </#if>
+
+<#assign foo = "boo" />
