@@ -1,0 +1,26 @@
+
+----------------------------------------------------------------------------------------------------------------
+- Model: Site
+----------------------------------------------------------------------------------------------------------------
+
+name:	footer-col-1-article-id
+type:	Text Field - Indexed
+for:	Footer article column 1 (article id). Used in theme.
+
+name:	footer-col-2-article-id
+type:	Text Field - Indexed
+for:	Footer article column 2 (article id). Used in theme.
+
+name:	footer-col-3-article-id
+type:	Text Field - Indexed
+for:	Footer article column 3 (article id). Used in theme.
+
+name:	top-nav-article-id
+type:	Text Field - Indexed
+for:	Top Navigation article (article id). Used in theme.
+
+
+----------------------------------------------------------------------------------------------------------------
+- Model: Page
+----------------------------------------------------------------------------------------------------------------
+

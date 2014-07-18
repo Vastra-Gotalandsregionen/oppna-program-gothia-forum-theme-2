@@ -19,6 +19,12 @@
 
 <#------ Expando values ----------------------------------------------------------------------------------------------------------------->
 
+<#assign footer_col_1_article_id = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "footer-col-1-article-id", group_id, "")  />
+<#assign footer_col_2_article_id = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "footer-col-2-article-id", group_id, "")  />
+<#assign footer_col_3_article_id = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "footer-col-3-article-id", group_id, "")  />
+
+<#assign top_nav_article_id = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "top-nav-article-id", group_id, "")  />
+
 <#--
 <#assign google_maps_api_key = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "google-maps-api-key", base_group_id, "")  />
 -->
@@ -61,3 +67,29 @@
 </#if>
 
 <#assign foo = "boo" />
+
+
+<#------ Macros -------------------------------------------------->
+
+<#-- Include Web Content Display portlet in theme. attribute: group_id is long, article_id is String-->
+
+<#macro includeWCD group_id article_id>
+	<#if article_id != "">
+
+		<#local portlet_instance_suffix = "gothiaforum" />
+		<#local instance_id = "wcd" + article_id + portlet_instance_suffix />
+		<#local instance_id = instance_id?substring(0, 12) />
+		<#local portlet_id = "56_INSTANCE_" + instance_id />
+
+		${freeMarkerPortletPreferences.reset()}
+
+		${freeMarkerPortletPreferences.setValue("portletSetupShowBorders","false")}
+		${freeMarkerPortletPreferences.setValue("groupId", group_id?c)}
+		${freeMarkerPortletPreferences.setValue("articleId", article_id)}
+
+		${theme.runtime(portlet_id, "", freeMarkerPortletPreferences)}
+		${freeMarkerPortletPreferences.reset()}
+	<#else>
+		&nbsp;
+	</#if>
+</#macro>

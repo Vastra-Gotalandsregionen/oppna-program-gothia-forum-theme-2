@@ -8,9 +8,9 @@
 	<title>${the_title} - ${company_name}</title>
 
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
-	
+
 	<script type="text/javascript" src="${javascript_folder}/pojs.js"></script>
-	
+
 	${theme.include(top_head_include)}
 </head>
 
@@ -29,17 +29,19 @@ ${theme.include(body_top_include)}
 	<div class="header-inner">
 		<div class="logotype">
 			<a href="/">
-
 				<#assign logo_src = images_folder + "/theme/logo/gothia-forum-logo.png" />
 				<img src="${logo_src}">
 			</a>
+		</div>
+		<div class="top-nav-wrap">
+			<@includeWCD group_id top_nav_article_id />
 		</div>
 	</div>
 
 	<#if has_navigation || is_signed_in>
 		<#include "${full_templates_path}/navigation.ftl" />
 	</#if>
-	
+
 </header>
 
 <div id="wrapper" class="container">

@@ -1,0 +1,34 @@
+
+.top-nav-wrap {
+
+  @include pie-clearfix();
+
+  ul.navigation-list {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: right;
+
+    li {
+
+      display: inline-block;
+      margin: 0 10px;
+
+      &:last-child {
+          margin-right: 0;
+      }
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+    }
+
+  }
+}
