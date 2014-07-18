@@ -24,7 +24,7 @@ body {
 	@import 'partials/utilities/portlet-overrides';
 
 	@import 'partials/atoms/body';
-	@import 'partials/atoms/paragraphs';	
+	@import 'partials/atoms/paragraphs';
 	@import 'partials/atoms/headings';
 	@import 'partials/atoms/links';
 	@import 'partials/atoms/lists';
@@ -36,12 +36,12 @@ body {
 	@import 'partials/molecules/breadcrumbs';
 	@import 'partials/molecules/dockbar';
 	@import 'partials/molecules/info-box';
-	
+	@import 'partials/molecules/navigation-list';
+	@import 'partials/molecules/tabs';
+
 	@import 'partials/organisms/sticky-footer';
 	@import 'partials/organisms/footer';
 	@import 'partials/organisms/header';
 }
 
 @import 'partials/shame';
-
-
