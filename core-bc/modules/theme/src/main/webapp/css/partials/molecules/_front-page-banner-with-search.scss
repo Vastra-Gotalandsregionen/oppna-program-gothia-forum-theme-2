@@ -1,0 +1,75 @@
+.search-box {
+
+  background: #cc071e;
+
+  .component.carousel {
+    margin-bottom: 0;
+  }
+
+  .banner-box-js .carousel-menu-pause,
+  .banner-box-js .carousel-menu-play,
+  .banner-box-js .carousel-menu-prev,
+  .banner-box-js .carousel-menu-next {
+    display: none;
+  }
+
+  .banner-box-js .carousel-item {
+    width: 100%;
+  }
+
+  .banner-box-js .carousel-item img {
+    width: 100%;
+  }
+
+  button.gothia-search-btn {
+    border: 0;
+    background: #fff;
+    color: #cc071e;
+    cursor: pointer;
+    font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    height: 30px;
+    line-height: 18px;
+    padding: 6px 10px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+  }
+
+  .search-box-bd {
+    color: #fff;
+    padding: 15px;
+  }
+
+  .search-box-bd form {
+    margin: 0;
+  }
+
+  .search-box .search-box-hd .portlet .portlet-body {
+    padding: 0;
+  }
+
+  .search-wrap {
+    padding: 10px;
+  }
+
+  .search-wrap .control-group {
+    margin-bottom: 0;
+  }
+
+  .search-wrap .gothia-search-input {
+    float: left;
+    height: 20px;
+    margin-right: 15px;
+  }
+
+  .search-wrap .control-group label {
+    display: none;
+  }
+
+  .search-wrap .search-intro {
+    background: url(../images/theme/logo/vgr-logo-red-matte.png) no-repeat 100% 5px;
+    padding-right: 180px;
+  }
+
+}

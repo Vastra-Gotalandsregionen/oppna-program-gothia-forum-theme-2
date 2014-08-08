@@ -1,0 +1,150 @@
+.gothia-search-wrap input[type="text"] {
+  background: #fff url(../images/icons/search-icon.png) 4px 3px no-repeat;
+  border: 1px solid #c4ced5;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  height: 36px;
+  padding: 6px;
+  padding-left: 41px;
+  width: 100%;
+}
+
+.gothia-search-wrap .search-input-wrap {
+  padding: 10px;
+  background-color: #efede3;
+  border-top: 6px solid #0273ac;
+  border-radius: 6px;
+}
+
+.gothia-search-wrap .search-input-wrap button {
+  float: right;
+}
+
+.gothia-search-wrap .search-input-wrap .control-group {
+  margin: 0;
+  width: 90%;
+}
+
+ul.gothia-list {
+  list-style: none;
+  margin: 24px 0;
+}
+
+ul.gothia-list>li {
+  background: #f5f4ee;
+  border: 1px solid #d5d3ca;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: block;
+  list-style-type: none;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+ul.gothia-list>li .title h3 {
+  color: #cc071e;
+  display: block;
+  font-family: 'Droid Sans',Arial,Helvetica,sans-serif;
+  font-size: 1.7em;
+  font-weight: normal;
+  line-height: 1.0;
+  margin: 0;
+}
+
+ul.gothia-list>li .title h3 a {
+  color: #cc071e;
+}
+
+ul.gothia-list>li .content {
+  color: #333;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+ul.gothia-list>li .meta {
+  margin: 10px 0 0 0;
+}
+
+ul.gothia-list ul.search-tags {
+  background: transparent url(../images/icons/icon-tag-blue.png) 0 5px no-repeat;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 24px;
+}
+
+ul.gothia-list ul.search-tags li {
+  display: inline;
+  padding: 0 5px 0 0;
+}
+
+ul.gothia-list>li a {
+  text-decoration: none;
+}
+
+ul.gothia-paging {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.gothia-paging li {
+  float: left;
+  margin: 0 10px;
+  position: relative;
+}
+
+ul.gothia-paging .selected span {
+  background: #f0f0f0;
+  border-color: #c7ced5;
+  color: #424242;
+}
+
+ul.gothia-paging a, ul.gothia-paging span {
+  background: #fcfcfc;
+  border: 1px solid #d8dde2;
+  display: block;
+  font-size: 14px;
+  height: 14px;
+  line-height: 1.0;
+  padding: 8px 3px;
+  text-align: center;
+  width: 30px;
+}
+
+ul.gothia-paging a {
+  color: #47618f;
+  text-decoration: none;
+}
+
+ul.gothia-paging .next a {
+  background-image: url(../images/icons/arrow-right.png);
+}
+
+ul.gothia-paging .previous a {
+  background-image: url(../images/icons/arrow-left.png);
+}
+
+ul.gothia-paging .previous a, ul.gothia-paging .next a {
+  background-color: #5175a4;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-color: #5b86c0;
+  font-size: 0;
+  text-indent: -9999em;
+}
+
+ul.gothia-paging .previous a, ul.gothia-paging .next a {
+  background-color: #5175a4;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-color: #5b86c0;
+  font-size: 0;
+  text-indent: -9999em;
+}
