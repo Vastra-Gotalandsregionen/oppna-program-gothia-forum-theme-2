@@ -17,31 +17,46 @@ body {
 }
 
 .aui {
-	@import 'partials/utilities/mixins';
-	@import 'partials/utilities/combines';
-	@import 'partials/utilities/grid';
-	@import 'partials/utilities/scaffolding';
-	@import 'partials/utilities/portlet-overrides';
+    @import 'partials/utilities/mixins';
+    @import 'partials/utilities/combines';
+    @import 'partials/utilities/grid';
+    @import 'partials/utilities/scaffolding';
+    @import 'partials/utilities/portlet-overrides';
 
-	@import 'partials/atoms/body';
-	@import 'partials/atoms/paragraphs';
-	@import 'partials/atoms/headings';
-	@import 'partials/atoms/links';
-	@import 'partials/atoms/lists';
-	@import 'partials/atoms/inputs';
-	@import 'partials/atoms/images';
-	@import 'partials/atoms/quotes';
-	@import 'partials/atoms/tokens';
+    @import 'partials/atoms/body';
+    @import 'partials/atoms/paragraphs';
+    @import 'partials/atoms/headings';
+    @import 'partials/atoms/links';
+    @import 'partials/atoms/lists';
+    @import 'partials/atoms/inputs';
+    @import 'partials/atoms/images';
+    @import 'partials/atoms/quotes';
+    @import 'partials/atoms/tokens';
 
-	@import 'partials/molecules/breadcrumbs';
-	@import 'partials/molecules/dockbar';
-	@import 'partials/molecules/info-box';
-	@import 'partials/molecules/navigation-list';
-	@import 'partials/molecules/tabs';
+    @import 'partials/molecules/blogs-aggregator';
+    @import 'partials/molecules/breadcrumbs';
+    @import 'partials/molecules/dockbar';
+    @import 'partials/molecules/front-page-banner-with-search';
+    @import 'partials/molecules/info-box';
+    @import 'partials/molecules/navigation-list';
+    @import 'partials/molecules/search-with-result';
+    @import 'partials/molecules/tabs';
 
-	@import 'partials/organisms/sticky-footer';
-	@import 'partials/organisms/footer';
-	@import 'partials/organisms/header';
+    @import 'partials/organisms/sticky-footer';
+    @import 'partials/organisms/footer';
+    @import 'partials/organisms/header';
+    @import 'partials/organisms/rss-portlet';
+
+    /* ---- Custom styling ---- */
+
+    /* -- Start page -- */
+
+    /* - Start page bloggs aggregator - */
+
+
+    /* -- Search page -- */
+
+
 }
 
 @import 'partials/shame';

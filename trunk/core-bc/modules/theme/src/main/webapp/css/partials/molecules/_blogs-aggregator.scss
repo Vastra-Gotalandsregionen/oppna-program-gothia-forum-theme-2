@@ -1,0 +1,48 @@
+.js .portlet-blogs-aggregator {
+
+  .entry-info {
+    line-height: 1em;
+    overflow: hidden;
+  }
+
+  .entry-content .entry-info .entry-date {
+    float: left;
+    width: 90px;
+  }
+
+  .entry-content .entry-title {
+    margin-left: 100px;
+    position: relative;
+  }
+
+  .entry-content .entry-title a {
+    position: absolute;
+  }
+
+  .entry-content .entry-author, .entry-content .entry-categories, .entry-content .entry-tags {
+    display: none;
+  }
+
+  .entry-content .entry-date {
+    background: none;
+    padding: 0;
+  }
+
+  .entry-content .entry-date, .entry-content .entry-title {
+    float: none;
+    font-size: 1.0em;
+    font-weight: normal;
+    line-height: 1.2em;
+  }
+
+  .portlet-title {
+    background: none repeat scroll 0 0 #EFEDE3;
+    border-top: 4px solid #CC071E;
+    color: #CC071E;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0;
+    padding: 4px 5px;
+  }
+
+}

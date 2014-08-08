@@ -79,5 +79,7 @@ ${theme.include(bottom_include)}
 
 <#include "${full_templates_path}/social_sharing.ftl" />
 
+<script type="text/javascript" src="${javascript_folder}/modules/gothia-theme-main.js"></script>
+
 </body>
 </html>
