@@ -39,10 +39,14 @@
     background: none repeat scroll 0 0 #EFEDE3;
     border-top: 4px solid #CC071E;
     color: #CC071E;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: normal;
     margin: 0;
     padding: 4px 5px;
+
+    img {
+      display: none;
+    }
   }
 
 }

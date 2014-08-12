@@ -33,6 +33,7 @@ body {
     @import 'partials/atoms/quotes';
     @import 'partials/atoms/tokens';
 
+		@import 'partials/molecules/actor-profile';
     @import 'partials/molecules/blogs-aggregator';
     @import 'partials/molecules/breadcrumbs';
     @import 'partials/molecules/calendar-article';
@@ -42,6 +43,7 @@ body {
     @import 'partials/molecules/info-box';
     @import 'partials/molecules/navigation-list';
     @import 'partials/molecules/search-with-result';
+		@import 'partials/molecules/simple-push-box';
     @import 'partials/molecules/tabs';
 
     @import 'partials/organisms/sticky-footer';
