@@ -1,0 +1,39 @@
+.contact-info-wrap {
+  background: #efede3;
+  border-top: 4px solid #0077b3;
+  color: #333;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  padding: 4px 5px;
+
+  h1 {
+    color: #0077b3;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-info-block {
+    margin: 10px 0;
+  }
+
+  .contact-info-name {
+    color: #0077b3;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  .contact-info-item {
+    margin: 1px 0;
+  }
+
+  .contact-info-title {
+    font-size: 1.1em;
+  }
+
+  .contact-info-label {
+    font-weight: bold;
+  }
+}
