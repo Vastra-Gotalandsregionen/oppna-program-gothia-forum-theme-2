@@ -43,8 +43,8 @@
       color: #cc071e;
       display: block;
       float: none;
-      font-family: 'Droid Sans',Arial,Helvetica,sans-serif;
-      font-size: 1.5em;
+      font-family: 'Lato',Helvetica,sans-serif;
+      font-size: 1.1em;
       font-weight: normal;
       margin: 0;
       text-align: center;
@@ -58,7 +58,7 @@
     }
   }
 
-  ul#listNews {
+  ul.vgr-list-view-news {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -71,8 +71,7 @@
       position: relative;
 
       a {
-        color: #0077b3;
-        text-decoration: none;
+        color: $link-color;
       }
 
       div.bd.description {

@@ -1,0 +1,141 @@
+
+.actor-profile {
+
+  h1 {
+    margin: 5px 0;
+  }
+
+  .parent-org {
+    color: #666;
+    font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 0;
+    margin-bottom: 5px 0;
+  }
+
+  ul.actor-tags {
+    background: transparent url(../images/icons/icon-tag-blue.png) 0 0 no-repeat;
+    list-style: none;
+    margin: 8px 0;
+    padding: 0 0 0 24px;
+
+    li {
+      display: inline;
+      padding: 0 5px 0 0;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .intro {
+    color: #666;
+    font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+  }
+
+  .contact-box {
+    background: #efede3;
+    border-top: 4px solid #CC071E;
+    padding: 10px;
+
+    ul.cnt-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        background: transparent url(../images/icons/icon-user.png) 0 1px no-repeat;
+        font-size: 0.9em;
+        margin: 20px 0;
+        padding: 0 0 0 18px;
+
+        &.cnt-person { background-image: url(../images/icons/icon-user.png); }
+        &.cnt-phone { background-image: url(../images/icons/icon-phone.png); }
+        &.cnt-email { background-image: url(../images/icons/icon-mail.png); }
+        &.cnt-web { background-image: url(../images/icons/icon-home.png); }
+        &.cnt-adress { background-image: url(../images/icons/icon-adressbook.png); }
+
+        a {
+          text-decoration: none;
+        }
+
+      }
+
+    }
+
+    .cnt-label,
+    .cnt-data {
+      display: block;
+      line-height: 1.0;
+    }
+
+    .logo-wrap {
+      margin: 10px auto;
+      text-align: center;
+    }
+
+    .cnt-label {
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+
+  }
+
+  .actor-intro-spot,
+  .actor-intro-spot-sep {
+    display: block;
+    float: left;
+    height: 130px;
+    margin: 5px 10px 5px 0;
+    width: 310px;
+  }
+
+  .actor-intro-spot,
+  .actor-intro-spot:link,
+  .actor-intro-spot:hover {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #efede3;
+    color: #0277b3;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .actor-intro-spot-hd {
+    background: #0277B3 url(../images/icons/spot-arrow-block-icon.png) 97% 50% no-repeat;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+    padding: 10px;
+  }
+
+  .actor-intro-spot:hover {
+    background: #f8f6ec;
+  }
+
+  .actor-intro-spot-bd {
+    display: block;
+    padding: 10px;
+  }
+
+  .actor-intro-spot-sep {
+    color: #0277B3;
+    font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+    font-weight: normal;
+    text-align: center;
+    line-height: 130px;
+    width: 50px;
+  }
+
+
+}
