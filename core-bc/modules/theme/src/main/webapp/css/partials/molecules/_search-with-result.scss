@@ -100,6 +100,15 @@ ul.gothia-paging li {
   position: relative;
 }
 
+ul.gothia-list>li .hit {
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul.gothia-list>li a {
+  color: #333;
+}
+
 ul.gothia-paging .selected span {
   background: #f0f0f0;
   border-color: #c7ced5;

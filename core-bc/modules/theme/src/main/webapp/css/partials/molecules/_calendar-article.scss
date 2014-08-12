@@ -1,0 +1,59 @@
+.cal-wrap h2 {
+  color: #CC071E;
+}
+
+ul.cal-list {
+  border-top: 1px solid #EFEDE3;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+li {
+  border-bottom: 1px solid #EFEDE3;
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
+li .cal-entry-date {
+  display: block;
+  float: left;
+  width: 30px;
+}
+
+li .cal-entry-date .cal-entry-date-month {
+  background: #cc071e;
+  color: #fff;
+  display: block;
+  font-size: .9em;
+  font-weight: bold;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+
+li .cal-entry-date .cal-entry-date-day {
+  background: #efede3;
+  color: #444;
+  display: block;
+  font-size: 1.0em;
+  font-weight: bold;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+
+li .cal-entry-content {
+  display: block;
+  margin: 0 0 0 30px;
+  padding: 0 0 0 15px;
+}
+
+li .cal-entry-heading {
+  color: #444;
+  display: block;
+  font-size: .9em;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+}

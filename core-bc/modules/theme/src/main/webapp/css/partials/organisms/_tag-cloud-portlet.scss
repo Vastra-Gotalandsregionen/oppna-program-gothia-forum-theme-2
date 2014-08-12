@@ -1,0 +1,32 @@
+.gothia-tagcloud-portlet {
+
+  .portlet-body {
+    padding: 0 15px 15px 15px;
+  }
+
+  .portlet-title {
+    color: #cc071e;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  ul.tags-cloud-list {
+
+    li {
+      display: inline-block;
+      margin-bottom: 18px;
+    }
+
+    a {
+      margin: 0 6px;
+      opacity: 0.5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      opacity: 1;
+    }
+  }
+
+}

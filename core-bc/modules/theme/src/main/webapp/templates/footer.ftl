@@ -18,7 +18,7 @@
 		</div>
 	</div>
 
-	<div class="footer-bottom">
+	<div class="footer-bottom clearfix">
 		<a class="logo" href="http://www.vgregion.se" title="G&aring; till V&auml;stra G&ouml;talandsregionen">
 			G&aring; till V&auml;stra G&ouml;talandsregionen
 		</a>

@@ -35,6 +35,8 @@ body {
 
     @import 'partials/molecules/blogs-aggregator';
     @import 'partials/molecules/breadcrumbs';
+    @import 'partials/molecules/calendar-article';
+    @import 'partials/molecules/contact-info-box';
     @import 'partials/molecules/dockbar';
     @import 'partials/molecules/front-page-banner-with-search';
     @import 'partials/molecules/info-box';
@@ -46,6 +48,7 @@ body {
     @import 'partials/organisms/footer';
     @import 'partials/organisms/header';
     @import 'partials/organisms/rss-portlet';
+    @import 'partials/organisms/tag-cloud-portlet';
 
     /* ---- Custom styling ---- */
 
