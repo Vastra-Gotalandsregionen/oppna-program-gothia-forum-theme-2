@@ -2,10 +2,10 @@
   background: #efede3;
   border-top: 4px solid #0077b3;
   color: #333;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.9em;
+  line-height: 1.5;
   margin: 0;
-  padding: 4px 5px;
+  padding: 0.8em;
 
   h1 {
     color: #0077b3;
@@ -17,6 +17,14 @@
 
   .contact-info-block {
     margin: 10px 0;
+  }
+
+  .contact-info-block:first-child {
+    margin-top: 0;
+  }
+
+  .contact-info-block:last-child {
+    margin-bottom: 0;
   }
 
   .contact-info-name {
