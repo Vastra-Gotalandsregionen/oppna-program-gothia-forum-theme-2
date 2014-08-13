@@ -42,6 +42,8 @@ ${theme.include(body_top_include)}
 		<#include "${full_templates_path}/navigation.ftl" />
 	</#if>
 
+	<#include "${full_templates_path}/navigation_mobile.ftl" />
+
 </header>
 
 <div id="wrapper" class="container">
