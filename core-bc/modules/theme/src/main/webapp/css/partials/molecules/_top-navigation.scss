@@ -1,0 +1,9 @@
+#topNavigation {
+
+  display: none;
+
+  @include small {
+    display: block;
+  }
+
+}
