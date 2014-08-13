@@ -11,7 +11,15 @@
 }
 
 .main-header {
-	background: $header-bg;
+
+	background: $header-bg-mobile;
+
+	@include small {
+		background: $header-bg;
+	}
+
+	//$header-bg-mobile
+
 	@include clearfix();
 
 	.header-inner {
@@ -38,6 +46,15 @@
 			}
 			img {
 				width: 100%;
+
+				&.responsive { display: block; }
+				&.normal { display: none; }
+
+				@include small {
+					&.responsive { display: none; }
+					&.normal { display: block; }
+				}
+
 			}
 		}
 
@@ -52,118 +69,5 @@
 			}
 		}
 	}
-
-	#topNavigation {
-
-		float: right;
-		position: relative;
-
-		ul {
-			@include no-bullets();
-  			@include horizontal-list();
-  			color: $top-nav-color;
-  			font-size: 0.9em;
-
-			li {
-
-				display: none;
-				line-height: 1.5;
-				padding-left: 1em;
-				padding-right: 0;
-
-				@include medium {
-					padding-left: 3em;
-					display: block;
-				}
-
-				a,
-				> span {
-					color: $top-nav-color;
-					display: inline-block;
-					padding: 1em;
-					text-decoration: none;
-
-					@include small {
-						padding: 0;
-					}
-				}
-
-				a:hover {
-					text-decoration: underline;
-				}
-
-				&.language {
-					display: block;
-
-					@include small {
-
-					}
-
-					@include medium {}
-
-				}
-
-
-			}
-		}
-	}
-
-	#navigation {
-
-		background: $menu-bar-bg;
-		font-weight: $menu-bar-font-weight;
-
-		@include border-radius(3px);
-
-		display: none;
-
-		&.open {
-			display: block;
-		}
-
-		@include medium {
-			display: block;
-		}
-
-		ul.level-one {
-			@include no-bullets();
-			@include horizontal-list();
-
-  			> li {
-
-  				margin: 0;
-  				padding: 0;
-
-				a {
-					color: $menu-bar-color;
-					display: block;
-					font-size: 1.1em;
-  					padding: 8px 24px;
-  					position: relative;
-					text-decoration: none;
-				}
-
-  				&.selected a,
-  				a:hover {
-  					background: $menu-bar-selected;
-  					color: $menu-bar-selected-color;
-  				}
-
-  				&:first-child a,
-  				&.first a {
-  					@include border-radius(3px 0 0 3px);
-  				}
-
-  			}
-
-				// Child lists
-				ul {
-					display: none;
-				}
-
-		}
-
-	}
-
 
 }

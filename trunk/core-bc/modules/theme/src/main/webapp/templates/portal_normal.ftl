@@ -30,16 +30,25 @@ ${theme.include(body_top_include)}
 		<div class="logotype">
 			<a href="/">
 				<#assign logo_src = images_folder + "/theme/logo/gothia-forum-logo.png" />
-				<img src="${logo_src}">
+				<#assign logo_src_responsive = images_folder + "/theme/logo/gothia-forum-logo-responsive.png" />
+
+				<img class="normal" src="${logo_src}">
+				<img class="responsive" src="${logo_src_responsive}">
 			</a>
 		</div>
-		<div class="top-nav-wrap">
+		<div id="topNavigation" class="top-nav-wrap">
 			<@includeWCD group_id top_nav_article_id />
 		</div>
+		<a href="#navigationTrigger" id="navigationTrigger">
+			<i class="icon-reorder"></i>
+			<span>Meny </span>
+    </a>
 	</div>
 
 	<#if has_navigation || is_signed_in>
-		<#include "${full_templates_path}/navigation.ftl" />
+		<nav id="navigation" role="navigation">
+			<#include "${full_templates_path}/navigation.ftl" />
+		</nav>
 	</#if>
 
 	<#include "${full_templates_path}/navigation_mobile.ftl" />

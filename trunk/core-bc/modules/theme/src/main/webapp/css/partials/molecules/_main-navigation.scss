@@ -1,0 +1,56 @@
+#navigation {
+
+  background: $menu-bar-bg;
+  font-weight: $menu-bar-font-weight;
+
+  @include border-radius(3px);
+
+  display: none;
+
+  &.open {
+    display: block;
+  }
+
+  @include medium {
+    display: block;
+  }
+
+  ul.level-one {
+    @include no-bullets();
+    @include horizontal-list();
+
+      > li {
+
+        margin: 0;
+        padding: 0;
+
+      a {
+        color: $menu-bar-color;
+        display: block;
+        font-size: 1.1em;
+          padding: 8px 24px;
+          position: relative;
+        text-decoration: none;
+      }
+
+        &.selected a,
+        a:hover {
+          background: $menu-bar-selected;
+          color: $menu-bar-selected-color;
+        }
+
+        &:first-child a,
+        &.first a {
+          @include border-radius(3px 0 0 3px);
+        }
+
+      }
+
+      // Child lists
+      ul {
+        display: none;
+      }
+
+  }
+
+}

@@ -43,10 +43,13 @@ body {
     @import 'partials/molecules/dockbar';
     @import 'partials/molecules/front-page-banner-with-search';
     @import 'partials/molecules/info-box';
+		@import 'partials/molecules/main-navigation';
+		@import 'partials/molecules/mobile-navigation';
     @import 'partials/molecules/navigation-list';
     @import 'partials/molecules/search-with-result';
 		@import 'partials/molecules/simple-push-box';
     @import 'partials/molecules/tabs';
+		@import 'partials/molecules/top-navigation';
 
     @import 'partials/organisms/sticky-footer';
     @import 'partials/organisms/footer';

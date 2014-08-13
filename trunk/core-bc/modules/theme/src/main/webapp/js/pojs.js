@@ -24,7 +24,7 @@ function addCssClass(elem, className) {
 }
 
 function removeCssClass(elem, className) {
-	
+
 	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
 	if (hasCssClass(elem, className)) {
 		while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
@@ -46,7 +46,11 @@ function bindNavigationTrigger(navigationTrigger) {
 	if(navigationTrigger) {
 		navigationTrigger.onclick = function(e) {
 
-			toggleCssClass(document.getElementById('navigation'), 'open');
+			console.log('Navigation trigger click.');
+
+			var navigationId = 'navigationMobile';
+
+			toggleCssClass(document.getElementById(navigationId), 'open');
 			toggleCssClass(navigationTrigger, 'mobile-menu-trigger-active');
 			return false;
 		}
