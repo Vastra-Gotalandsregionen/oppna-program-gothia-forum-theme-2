@@ -32,6 +32,15 @@
 								${nav_item_name}
 							</span>
 						</a>
+
+						<#if nav_item.getChildren()?has_content>
+							<ul class="level-two">
+								<#list nav_item.getChildren() as nav_item_child>
+									<li>Foo</li>
+								</#list>
+							</ul>
+						</#if>
+
 					</li>
 				</#list>
 			</#if>
