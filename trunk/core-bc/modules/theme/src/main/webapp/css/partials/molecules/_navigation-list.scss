@@ -11,10 +11,16 @@
     position: relative;
     text-align: right;
 
+    @include pie-clearfix();
+
     li {
 
       display: inline-block;
       margin: 0 10px;
+
+      display: block;
+      float: left;
+      position: relative;
 
       &:last-child {
           margin-right: 0;
@@ -29,6 +35,23 @@
       }
 
     }
+
+    li.profile-link {
+
+      .profile-help {
+        background: transparent url(../images/theme/profile/profile-help.png) bottom left no-repeat;
+        display: block;
+        font-size: 0;
+        height: 44px;
+        position: absolute;
+        right: 0;
+        text-indent: -9999em;
+        top: 25px;
+        width: 135px;
+
+      }
+    }
+
 
   }
 }
