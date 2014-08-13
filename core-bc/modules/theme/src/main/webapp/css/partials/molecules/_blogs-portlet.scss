@@ -1,0 +1,36 @@
+.portlet-blogs {
+
+  .navbar {
+    .navbar-inner {
+      // background: none;
+      // border: none;
+      // @include box-shadow(none);
+      //
+      // padding: 0;
+
+      padding: 0.3em 1em;
+
+      ul {}
+    }
+  }
+
+  .entry-date {
+    background: none;
+    padding-left: 0;
+  }
+
+  .entry-author {
+    background: none;
+    padding-left: 0;
+  }
+
+  .entry-footer {
+    @include pie-clearfix();
+  }
+
+  .taglib-header .header-back-to a {
+    font-size: 1.1em;
+    padding: 0.3em;
+  }
+
+}

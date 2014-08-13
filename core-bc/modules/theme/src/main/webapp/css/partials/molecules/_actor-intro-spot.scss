@@ -1,0 +1,58 @@
+// Intro spots
+
+.actor-intro-spot-wrap {
+
+  .actor-intro-spot,
+  .actor-intro-spot-sep {
+    display: block;
+    float: left;
+    height: 170px;
+    margin: 5px 10px 5px 0;
+    width: 310px;
+  }
+
+  .actor-intro-spot,
+  .actor-intro-spot:link,
+  .actor-intro-spot:hover {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #efede3;
+    color: #0277b3;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .actor-intro-spot-hd {
+    background: #0277B3 url(../images/icons/spot-arrow-block-icon.png) 97% 50% no-repeat;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+  }
+
+  .actor-intro-spot:hover {
+    background: #f8f6ec;
+  }
+
+  .actor-intro-spot-bd {
+    display: block;
+    padding: 10px;
+  }
+
+  .actor-intro-spot-sep {
+    color: #0277B3;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 1.6em;
+    font-weight: normal;
+    text-align: center;
+    line-height: 170px;
+    width: 50px;
+  }
+
+}

@@ -33,8 +33,10 @@ body {
     @import 'partials/atoms/quotes';
     @import 'partials/atoms/tokens';
 
+		@import 'partials/molecules/actor-intro-spot';
 		@import 'partials/molecules/actor-profile';
     @import 'partials/molecules/blogs-aggregator';
+		@import 'partials/molecules/blogs-portlet';
     @import 'partials/molecules/breadcrumbs';
     @import 'partials/molecules/calendar-article';
     @import 'partials/molecules/contact-info-box';
