@@ -1,0 +1,28 @@
+/*------- FAQ -------*/
+
+.faq {
+  margin: 1em 0 0 0;
+
+  dt {
+    color: #0077b3;
+    float: none;
+    font-weight: bold;
+    margin: 12px 0 2px 0;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
+
+  dt:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  dd {
+    margin: 0;
+  }
+
+  dd p:first-child {
+    margin-top: 0;
+  }
+}
+
