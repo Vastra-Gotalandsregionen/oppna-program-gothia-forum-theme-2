@@ -49,7 +49,7 @@ AUI().add('gothia-theme-main',function(A) {
 						
 //						instance._initNavigationButton();
 						instance._initBannerCarousel();
-//						instance._initFAQ();
+						instance._initFAQ();
 						instance._cleanUpBlogsAggregator();
 //						instance._cleanUpBlogsPortlet();
 //						instance._cleanupSiteBreadcrumbs();
@@ -318,10 +318,7 @@ AUI().add('gothia-theme-main',function(A) {
     						
                             instance.bannerCarousel.render();
                         }, instance);
-						
-						
-
-					}/*,*/
+					},
 					
 /*
 					getFoo: function() {
@@ -329,7 +326,6 @@ AUI().add('gothia-theme-main',function(A) {
 					},
 */
 
-/*
 					_initFAQ: function() {
 						var instance = this;
 						
@@ -352,7 +348,6 @@ AUI().add('gothia-theme-main',function(A) {
 						// Bind click callback to questions
 						entryQuestions.on('click', instance._onFaqQuestionsClick, instance);
 					},
-*/
 
 /*
             		_initNavigationButton: function() {
@@ -383,21 +378,19 @@ AUI().add('gothia-theme-main',function(A) {
 					},
 */
 
-/*
 					_onFaqQuestionsClick: function(e) {
 						var currentTarget = e.currentTarget;
 						var entryNode = A.one(currentTarget);
 						var answerNode = entryNode.next();
 						
 						if(answerNode) {
-							if(answerNode.hasClass('aui-helper-hidden')) {
+							if(answerNode.hasClass('hide')) {
 								answerNode.show();	
 							} else {
 								answerNode.hide();
 							}
 						}
 					},
-*/
 
 /*
 					_onRegionCalendarLinkClick: function(e) {
