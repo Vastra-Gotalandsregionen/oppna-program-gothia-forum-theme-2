@@ -46,8 +46,6 @@ function bindNavigationTrigger(navigationTrigger) {
 	if(navigationTrigger) {
 		navigationTrigger.onclick = function(e) {
 
-			console.log('Navigation trigger click.');
-
 			var navigationId = 'navigationMobile';
 
 			toggleCssClass(document.getElementById(navigationId), 'open');

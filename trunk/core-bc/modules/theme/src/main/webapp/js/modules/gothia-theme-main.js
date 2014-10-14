@@ -276,12 +276,10 @@ AUI().add('gothia-theme-main',function(A) {
 						instance.bannerCarousel = new A.Carousel({
 							intervalTime: 5,
 							contentBox: bannerBox,
-							activeIndex: 'rand',
-							height: bannerBoxHeight,
-							width: bannerBoxWidth
+							activeIndex: 'rand'
 						}).render();
 
-						bannerBox.all('a.banner-box-link').removeClass('aui-helper-hidden');
+						bannerBox.all('a.banner-box-link').removeClass('hide');
 						bannerBox.addClass('banner-box-js');
 						
 						bannerBox.on('mouseenter', function(e) {

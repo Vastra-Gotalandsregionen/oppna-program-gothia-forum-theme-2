@@ -3,7 +3,7 @@
 
   @include pie-clearfix();
 
-  ul.navigation-list {
+  ul.navigation-list, ul.top-navigation-list {
     float: right;
     list-style: none;
     margin: 0;
