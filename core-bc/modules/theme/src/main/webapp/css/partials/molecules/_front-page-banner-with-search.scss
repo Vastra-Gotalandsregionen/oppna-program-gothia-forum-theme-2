@@ -4,6 +4,7 @@
 
   .component.carousel {
     margin-bottom: 0;
+    max-width: 100%;
   }
 
   .banner-box-js .carousel-menu-pause,
@@ -14,7 +15,13 @@
   }
 
   .banner-box-js .carousel-item {
+    display: none;
+    position: static;
     width: 100%;
+
+    &.carousel-item-active {
+      display: block;
+    }
   }
 
   .banner-box-js .carousel-item img {
