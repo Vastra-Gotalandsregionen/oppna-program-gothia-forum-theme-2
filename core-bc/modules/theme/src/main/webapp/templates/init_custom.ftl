@@ -25,6 +25,10 @@
 
 <#assign top_nav_article_id = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "top-nav-article-id", group_id, "")  />
 
+<#assign social_add_this_profile_id = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "social-add-this-profile-id", group_id, "")  />
+
+<#assign social_add_this_services = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "social-add-this-services", group_id, "")  />
+
 <#--
 <#assign google_maps_api_key = expandoValueLocalService.getData(company_id, "com.liferay.portal.model.Group", "CUSTOM_FIELDS", "google-maps-api-key", base_group_id, "")  />
 -->
