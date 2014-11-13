@@ -8,6 +8,7 @@
 	<title>${the_title} - ${company_name}</title>
 
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 	<script type="text/javascript" src="${javascript_folder}/pojs.js"></script>
 
