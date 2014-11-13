@@ -21,3 +21,8 @@
 		padding: 50px;
 	}	
 }
+
+/* To hide the control for the RSS portlet when signed out. */
+.controls-visible.signed-out .portlet-borderless-bar {
+	display: none;
+}
