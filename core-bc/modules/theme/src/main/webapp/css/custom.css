@@ -26,6 +26,7 @@ body {
     @import 'partials/atoms/body';
     @import 'partials/atoms/paragraphs';
     @import 'partials/atoms/headings';
+    @import 'partials/atoms/labels';
     @import 'partials/atoms/links';
     @import 'partials/atoms/lists';
     @import 'partials/atoms/inputs';

@@ -12,7 +12,7 @@ $bp-large : 1199px;
 // Colors - contansts
 // -------------------------
 
-$got-bluealt:		#2665a9;
+$got-bluealt:		#0077b3;
 $got-bluedark:		#005479;
 
 
@@ -35,7 +35,8 @@ $got-graylight:		#ececec;
 
 $got-blue:			#0078b4;
 
-$got-bluealt:		#2665a9;
+$got-bluealt:		#0077b3;
+//$got-bluealt:		#2665a9;
 $got-bluedark:		#005479;
 $got-bluematte:		#56a0d9;
 
@@ -107,7 +108,8 @@ $info-box-border-color:			$got-blue;
 
 // Nav portlet
 $nav-portlet-bg: 					transparent;
-$nav-portlet-color: 				$got-blue;
+$nav-portlet-color: 				$got-bluealt;
+//$nav-portlet-color: 				$got-blue;
 $nav-portlet-selected-color: 		$got-red;
 $nav-portlet-title-border-color: 	$got-red;
 $nav-portlet-title-bg:				$got-sandgray;
