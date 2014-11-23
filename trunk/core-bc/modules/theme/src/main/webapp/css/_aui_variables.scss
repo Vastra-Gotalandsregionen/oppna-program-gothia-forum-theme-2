@@ -1,11 +1,11 @@
 // ----------------- VARIABLES OVERRIDING DEFAULT DEFAULT VALUES IN /aui/_variables.scss -----------------
-$got-bluealt:		#2665a9;
+$got-bluealt:		#0077b3;
 $got-bluedark:		#005479;
 
 // Typography
 // -------------------------
-$baseFontSize:          16px;
-$baseLineHeight:        26px;
+$baseFontSize:          14px;
+$baseLineHeight:        20px;
 
 $linkColor: $got-bluealt;
 $linkColorHover: $got-bluedark;
@@ -58,3 +58,4 @@ $successText: #488F06;
 $warningBackground: #FFFBDC;
 $warningBorder: #F1D875;
 $warningText: #BF7900;
+

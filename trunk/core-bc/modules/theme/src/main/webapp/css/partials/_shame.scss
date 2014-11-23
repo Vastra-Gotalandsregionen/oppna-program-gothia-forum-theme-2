@@ -136,6 +136,15 @@ body>.alert {
 }
 
 .aui h2 {
-  line-height: 1.5em;
+  font-size: 1.6em;
+  line-height: 1.0em;
   margin: 1em 0 .4em 0;
+}
+
+.aui h3 {
+	color: #666;
+    font-size: 1.15em;
+	font-weight: 600;
+    line-height: 1.0em;
+	margin-top: 20px;
 }

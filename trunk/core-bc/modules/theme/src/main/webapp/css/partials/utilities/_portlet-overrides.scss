@@ -31,8 +31,6 @@
 .portlet-journal-content,
 .portlet-asset-publisher {
 
-    margin-bottom: 0;
-
 	.portlet-content {
 		.portlet-body {
 			padding-left: 0;
@@ -76,7 +74,7 @@
 
 	.nav-menu {
 		background: transparent;
-		border: 1px solid $nav-portlet-border-color;
+		border: 1px 0 solid $nav-portlet-border-color;
 
 		@include border-radius(3px);
 		color: $nav-portlet-color;
