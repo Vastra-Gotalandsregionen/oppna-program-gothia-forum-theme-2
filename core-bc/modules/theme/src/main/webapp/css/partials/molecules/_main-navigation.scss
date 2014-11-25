@@ -19,8 +19,12 @@
     @include no-bullets();
     @include horizontal-list();
 
-      > li {
+      > li:first-child {
+        border: none;
+      }
 
+      > li {
+        border-left: 1px solid white;
         margin: 0;
         padding: 0;
 
