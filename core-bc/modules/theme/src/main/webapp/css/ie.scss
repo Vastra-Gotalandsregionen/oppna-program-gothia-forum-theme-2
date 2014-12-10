@@ -1,3 +1,30 @@
+&.ie7, &.ie8, &.ie9 {
+
+  .staff {
+
+    .person {
+      float: left;
+      width: 24.95%;
+    }
+
+    .person-inner {
+      height: 430px;
+    }
+
+    img {
+      float: none;
+      width: 100%;
+    }
+
+    .person-info {
+      float: none;
+      width: 100%;
+    }
+
+  }
+
+}
+
 &.ie7, &.ie8 {
   .container {
     width: 1000px;
@@ -70,4 +97,5 @@
   #wrapper {
     padding: 2em 0;
   }
+
 }
