@@ -49,7 +49,9 @@ body {
 		@import 'partials/molecules/mobile-navigation';
     @import 'partials/molecules/navigation-list';
     @import 'partials/molecules/search-with-result';
+		@import 'partials/molecules/select-filter';
 		@import 'partials/molecules/simple-push-box';
+		@import 'partials/molecules/staff';
     @import 'partials/molecules/tabs';
 		@import 'partials/molecules/top-navigation';
 
