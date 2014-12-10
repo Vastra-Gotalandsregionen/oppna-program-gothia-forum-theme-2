@@ -1,0 +1,26 @@
+.select-filter {
+
+  margin: 0 0 15px 0;
+  padding: 0 15px;
+  text-align: right;
+  visibility: hidden;
+
+  @include medium {
+    //margin: 0 15px 15px 15px;
+  }
+
+  &.select-filter-ready {
+    visibility: visible;
+  }
+
+  label,
+  select {
+    display: inline-block;
+    margin: 0;
+  }
+
+  label {
+    margin-right: 5px;
+  }
+
+}

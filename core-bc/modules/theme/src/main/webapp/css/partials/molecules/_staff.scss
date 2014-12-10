@@ -1,0 +1,60 @@
+.staff {
+
+  @include pie-clearfix();
+
+  .person {
+
+    float: none;
+    width: 100%;
+
+    @include small {
+      float: left;
+      width: 32.92%;
+    }
+
+    @include medium {
+      width: 24.95%;
+    }
+
+
+  }
+
+  .person-inner {
+    margin: 0 15px 30px 15px;
+    @include pie-clearfix();
+  }
+
+
+
+
+  img {
+    float: left;
+    max-width: 100%;
+    width: 35.0%;
+
+    @include small {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .person-info {
+    float: right;
+    width: 60.0%;
+
+    @include small {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  h2 {
+    font-size: 1.3em;
+    line-height: 1;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+  }
+
+
+
+}

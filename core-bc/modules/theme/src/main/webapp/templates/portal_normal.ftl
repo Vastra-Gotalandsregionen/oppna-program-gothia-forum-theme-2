@@ -91,6 +91,7 @@ ${theme.include(bottom_include)}
 
 <#include "${full_templates_path}/social_sharing.ftl" />
 
+<script type="text/javascript" src="${javascript_folder}/modules/aui-custom-select-filter-plugin.js"></script>
 <script type="text/javascript" src="${javascript_folder}/modules/gothia-theme-main.js"></script>
 
 </body>

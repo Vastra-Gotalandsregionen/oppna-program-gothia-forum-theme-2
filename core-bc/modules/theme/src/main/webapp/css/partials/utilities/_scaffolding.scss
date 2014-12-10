@@ -4,13 +4,17 @@
 
 // Wrapper
 #wrapper {
-	padding: 1em 1em;
+	padding: 1em 0;
 
 	@include medium {
-		padding: 2em 5em;
+		padding: 2em 0;
 	}
 }
 
+.container {
+	width: 100%;
+	max-width: 1000px;
+}
 
 .portlet-column-content.empty {
 	padding: 0;
@@ -19,7 +23,7 @@
 .page-edit.controls-visible {
 	.portlet-column-content.empty {
 		padding: 50px;
-	}	
+	}
 }
 
 /* To hide the control for the RSS portlet when signed out. */
