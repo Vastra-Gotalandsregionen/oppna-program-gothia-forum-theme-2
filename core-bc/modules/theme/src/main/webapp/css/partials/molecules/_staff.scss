@@ -20,8 +20,18 @@
   }
 
   .person-inner {
+
     margin: 0 15px 30px 15px;
     @include pie-clearfix();
+
+    @include small {
+      height: 530px;
+    }
+
+    @include medium {
+      height: 430px;
+    }
+
   }
 
 
