@@ -17,6 +17,15 @@
 // http://csswizardry.com/2013/04/shame-css/
 // --------
 
+
+// Hide "node info"
+#wrapper {
+	>.alert-info {
+		display: none;
+	}
+}
+
+
 // Hide "Add new" button on Asset Publisher
 // --------
 .add-asset-selector {
