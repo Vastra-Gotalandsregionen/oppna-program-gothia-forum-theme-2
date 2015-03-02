@@ -94,5 +94,7 @@ ${theme.include(bottom_include)}
 <script type="text/javascript" src="${javascript_folder}/modules/aui-custom-select-filter-plugin.js"></script>
 <script type="text/javascript" src="${javascript_folder}/modules/gothia-theme-main.js"></script>
 
+<#include "${full_templates_path}/piwik.ftl" />
+
 </body>
 </html>
