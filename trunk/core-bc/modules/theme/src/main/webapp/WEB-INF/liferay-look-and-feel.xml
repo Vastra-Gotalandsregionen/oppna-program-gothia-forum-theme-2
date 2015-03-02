@@ -10,6 +10,8 @@
 		<settings>
 			<setting key="portlet-setup-show-borders-default" value="false" configurable="true" type="checkbox" />
 			<setting key="show-breadcrumbs" value="true" configurable="true" type="checkbox"></setting>
+            <setting key="enable-piwik" value="false" configurable="true" type="checkbox" />
+            <setting key="piwik-site-id" value="" configurable="true" type="text" />
 		</settings>
 
 	</theme>
