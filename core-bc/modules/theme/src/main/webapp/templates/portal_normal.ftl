@@ -79,20 +79,20 @@ ${theme.include(body_top_include)}
 
 <#include "${full_templates_path}/footer.ftl" />
 
+<script type="text/javascript" src="${javascript_folder}/modules/aui-custom-select-filter-plugin.js"></script>
+<script type="text/javascript" src="${javascript_folder}/modules/gothia-theme-main.js"></script>
+
 ${theme.include(body_bottom_include)}
 
 ${theme.include(bottom_include)}
 
 <#if google_maps_api_key?has_content>
-	<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=${google_maps_api_key}"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=${google_maps_api_key}"></script>
 </#if>
 
-<script type="text/javascript" src="${javascript_folder}/respond.js"></script>
+<#--<script type="text/javascript" src="${javascript_folder}/respond.js"></script>-->
 
 <#include "${full_templates_path}/social_sharing.ftl" />
-
-<script type="text/javascript" src="${javascript_folder}/modules/aui-custom-select-filter-plugin.js"></script>
-<script type="text/javascript" src="${javascript_folder}/modules/gothia-theme-main.js"></script>
 
 <#include "${full_templates_path}/piwik.ftl" />
 
